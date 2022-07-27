@@ -16,11 +16,13 @@ module.exports = {
     devtool: 'source-map',
     devServer: {
         static: {
-            directory: path.resolve(__dirname, 'dist')
+            directory: path.resolve(__dirname, 'dist'),
+            watch: true,
         },
         port: 3000,
         open: true,
-        hot: true,
+        hot: false,
+        liveReload: true,
         compress: true,
         historyApiFallback: true,
     },
@@ -52,7 +54,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack Boilerplate',
+            title: 'UI Library',
             filename: 'index.html',
             template: 'src/template.html',
         }),
