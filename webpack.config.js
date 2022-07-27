@@ -52,7 +52,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack App',
+            title: 'Webpack Boilerplate',
             filename: 'index.html',
             template: 'src/template.html',
         }),

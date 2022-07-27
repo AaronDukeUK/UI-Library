@@ -1,2 +1,2 @@
-# Dad-Jokes
-Dad Jokes Webpack Tutorial
+# Webpack Boilerplate
+Babel, Sass & HTML Template
